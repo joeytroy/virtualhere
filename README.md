@@ -25,4 +25,4 @@ page.
 To uninstall the server, run the following command. This script will remove
 server binary and systemd service, but it will preserve the configuration file.
 
-    curl https://raw.githubusercontent.com/joeytroy/virtualhere/main/install_server | sudo sh
+    curl https://raw.githubusercontent.com/joeytroy/virtualhere/main/uninstall_server | sudo sh
