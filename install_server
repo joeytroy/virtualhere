@@ -21,7 +21,7 @@ else
     FILENAME="vhusbdi386"
   fi
 fi
-wget https://www.virtualhere.com/sites/default/files/usbserver/$FILENAME
+wget --no-check-certificate https://www.virtualhere.com/sites/default/files/usbserver/$FILENAME
 chmod +x $FILENAME
 mv $FILENAME /usr/local/sbin
 mkdir -p /usr/local/etc/virtualhere
