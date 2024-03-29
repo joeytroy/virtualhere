@@ -1,4 +1,4 @@
-# VirtualHere server install and uninstall script
+# VirtualHere server install and uninstall script makes it easier
 
 VirtualHere server install script for `systemd` based systems (e.g Raspberry
 Pi and most modern Linux Distributions).
